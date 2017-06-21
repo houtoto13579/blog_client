@@ -1,0 +1,168 @@
+.App {
+  background: #444;
+  height: auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #444;
+  height: auto;
+  padding: 10px;
+  color: white;
+}
+.title{
+  text-align: left;
+  font-size: 15vh;
+  margin: 10px;
+  margin-left: 10%;
+}
+.subtitle{
+  text-align: left;
+  font-size: 4vh;
+  margin-left: 10%;
+}
+.new-button{
+  margin: 3px;
+  margin-left: 10%;
+  font-size: 4vh;
+  background-color: white;
+  color: grey;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.back-button{
+  margin: 2px;
+  margin-right: 12%;
+  font-size: 4vh;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  float: right;
+}
+.post-button{
+  margin: 3px;
+  margin-left: 10%;
+  font-size: 4vh;
+  background-color: white;
+  color: grey;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+
+}
+.post-button:hover{
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+  color: white;
+}
+@keyframes rainbow {
+  0% {background: #aa0000;}
+  10% {background: #cc8000;}
+  20% {background: #cccc00;}
+  30% {background: #60cc00;}
+  40% {background: #00cc00;}
+  50% {background: #00cc60;}
+  60% {background: #00cccc;}
+  70% {background: #0040cc;}
+  80% {background: #0000cc;}
+  90% {background: #6000cc;}
+  100% {background: #cc0060;}
+}
+
+.article-block-container{
+  vertical-align: middle; 
+  background-color: white;
+  box-shadow: 0px 0px 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  height: auto;
+  padding: 0px;
+}
+  .article-block{
+      vertical-align: middle; 
+      background-color: white;
+      box-shadow: 0px 0px 3px;
+      width: 100%;
+      height: auto;
+      padding: 0px;
+      padding-bottom: 4px;
+      animation: fadein 1.5s forwards;
+      margin-bottom: 4px;
+  }
+    .article-title{
+      text-align: left;
+      padding-left: 2%;
+      padding-top :10px;
+      -webkit-flex: none;
+      flex: none;
+      vertical-align: top;
+      width: 98%;
+      font-size: 25px;
+    }
+    .article-author{
+      text-align: left;
+      padding-left: 2%;
+      -webkit-flex: none;
+      flex: none;
+      vertical-align: top;
+      width: 98%;
+      font-size: 17px;
+      color: gray;
+    }
+    .article-time{
+      text-align: left;
+      padding-left: 2%;
+      -webkit-flex: none;
+      flex: none;
+      vertical-align: top;
+      width: 98%;
+      font-size: 12px;
+      color: gray;
+    }
+    .article-main{
+      box-shadow: 0px 0px 1px;
+      margin: 20px;
+      min-height: 30vh;
+    }
+.editor-area{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: white;
+  padding: 15px;
+}
+  .title-input{
+    margin-left: 0%;
+    font-size: 24px;
+    width: 90%;
+    max-width: 90%;
+    margin-bottom: 10px; 
+  }
+  .title-input:focus{
+    outline: none;
+  }
+  .editor-wrapper{
+    min-height: 200px;
+    padding-bottom: 10px;
+  }
+
+  h5{
+    margin: 0px;
+  }
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
